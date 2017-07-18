@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="DividingTextView">
+        <attr name="dtv_lineColor" format="color"/>
+        <attr name="dtv_lineSize" format="dimension"/>
+        <attr name="dtv_linePadding" format="dimension"/>
+    </declare-styleable>
+</resources>

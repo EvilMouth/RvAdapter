@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+    <com.zyhang.rvAdapter.DividingTextView
+        android:id="@+id/vh_more_dtv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:paddingLeft="100dp"
+        android:paddingRight="100dp"
+        android:text="@string/vh_more_default"
+        android:textColor="@android:color/black"
+        app:dtv_lineColor="@android:color/black"
+        app:dtv_linePadding="10dp"
+        app:dtv_lineSize="0.5dp"/>
+
+    <ProgressBar
+        android:id="@+id/vh_more_pb"
+        style="@android:style/Widget.Holo.Light.ProgressBar.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/vh_more_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="@android:color/black"/>
+</RelativeLayout>

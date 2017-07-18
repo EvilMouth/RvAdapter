@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RvAdapter</string>
+
+    <string name="vh_custom_empty">无数据哟~</string>
+</resources>

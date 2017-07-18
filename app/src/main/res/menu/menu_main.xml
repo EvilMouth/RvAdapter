@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_loading"
+        android:title="made loading"/>
+
+    <item
+        android:id="@+id/menu_empty"
+        android:title="made empty"/>
+
+    <item
+        android:id="@+id/menu_setList"
+        android:title="made setList"/>
+
+    <item
+        android:id="@+id/menu_secondActivity"
+        android:title="startSecondActivity"/>
+</menu>
